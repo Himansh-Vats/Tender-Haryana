@@ -80,9 +80,6 @@ a {
   display: flex;
   justify-content: space-around;
 }
-.middle-container {
-  padding: 10px;
-}
 .left-sidebar-table td {
   border: 1.5px solid rgb(181, 180, 180);
   border-radius: 10px;
@@ -119,6 +116,7 @@ a {
 .image-dash-img {
   width: 12rem;
   height: 5rem;
+  margin-right: 10px;
 }
 .latest-tender-container-img {
   margin-top: 10px;
@@ -130,11 +128,7 @@ a {
   border: 0.8px solid rgb(222, 222, 222);
 }
 .latest-corri-container {
-  margin-top: 10px;
-}
-.latest-corri-container .middle-container thead {
-  background-color: rgb(222, 222, 222);
-  color: #822c00;
+  margin: 10px 0px;
   padding: 3px;
   border: none;
 }
@@ -149,16 +143,39 @@ a {
   color: #b9430b;
 }
 .middle-container thead,
+.certifying-agent-heading,
 .middle-container tfoot {
+  background-color: #f1f1f1;
+  padding: 5px;
   font-weight: bold;
   color: #5f2000;
 }
-.middle-container thead {
-  background-color: #f1f1f1;
+.certifying-agent {
+  border: 0.8px solid rgb(222, 222, 222);
+  margin: 40px 18px 0px 0px;
 }
-/* .certifying-agent {
-  width: 10rem;
-} */
+.certifying-agent-img {
+  padding: 10px;
+  text-align: center;
+}
+/* ------------------------------------left-sidebar------------------------ */
+
+.login-btn-img {
+  width: 18rem;
+  margin-bottom: 20px;
+}
+.right-top-links a {
+  color: #5f2000;
+  font-weight: bold;
+}
+.right-top-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  /* align-items: center; */
+  gap: 15px;
+}
 /* ------------------------------footer--------------------------------- */
 .footer-container {
   text-align: center;
