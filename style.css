@@ -101,6 +101,34 @@ a {
   margin-top: 10px;
   width: 15rem;
 }
+.tender-container {
+  border: 1px solid orange;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #d26a35;
+  padding: 5px;
+}
+.tender-search-hdng {
+  text-align: center;
+  background-color: #fc9460;
+  height: 30px;
+  font-weight: bold;
+  color: #843711;
+  padding-top: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.tender-ipt {
+  background-color: #e8c6b5;
+  padding: 5px;
+  margin: 5px 30px 10px 5px;
+}
+
+.tender-btn {
+  background-color: #fc9460;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
 /* ------------------------middle container----------------------- */
 .middle-container {
   padding: 10px;
