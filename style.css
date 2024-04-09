@@ -110,7 +110,7 @@ a {
 }
 .tender-search-hdng {
   text-align: center;
-  background-color: #fc9460;
+  background-color: #f7c6ad;
   height: 30px;
   font-weight: bold;
   color: #843711;
@@ -172,7 +172,7 @@ a {
 }
 .middle-container thead,
 .certifying-agent-heading,
-.middle-container tfoot {
+.middle-container tfoot td {
   background-color: #f1f1f1;
   padding: 5px;
   font-weight: bold;
@@ -186,6 +186,10 @@ a {
   padding: 10px;
   text-align: center;
 }
+.tender-container {
+  margin-bottom: 30px;
+}
+
 /* ------------------------------------left-sidebar------------------------ */
 
 .login-btn-img {
@@ -201,9 +205,21 @@ a {
   flex-direction: column;
   margin-left: 55px;
   margin-bottom: 20px;
-  /* align-items: center; */
   gap: 15px;
 }
+.right-bar-links {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+}
+.right-bar-links-blank {
+  background-color: rgb(242, 196, 98);
+  padding: 4px;
+}
+.right-bar-bottom-links {
+  margin: 10px;
+}
+
 /* ------------------------------footer--------------------------------- */
 .footer-container {
   text-align: center;
